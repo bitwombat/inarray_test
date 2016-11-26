@@ -4,10 +4,11 @@ namespace FormTest\Form;
 
 use Zend\Form\Form;
 
+class MultiSelectForm extends Form
+{
 
-class MultiSelectForm extends Form {
-
-    public function __construct($name = null) {
+    public function __construct($name = null)
+    {
         parent::__construct($name);
 
         $this->add([
@@ -43,5 +44,4 @@ class MultiSelectForm extends Form {
             ],
         ]);
     }
-
 }
