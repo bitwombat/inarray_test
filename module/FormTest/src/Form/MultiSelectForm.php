@@ -12,16 +12,6 @@ class MultiSelectForm extends Form
         parent::__construct($name);
 
         $this->add([
-            'name' => 'name',
-            'type' => 'text',
-            'attributes'    => [
-                'class'         => 'form-control',
-            ],
-            'options' => [
-               'label' => 'Stud Name',
-            ]
-        ]);
-        $this->add([
             'name'          => 'subscriptions',
             'type'          => 'select',
             'options'       => [
