@@ -1,0 +1,12 @@
+<?php
+
+/* @var $form Zend\Form\Form */
+
+$form->prepare();
+
+echo $this->form()->openTag($form);
+echo $this->formRow($form->get('name'));
+echo $this->formRow($form->get('subscriptions'));
+echo $this->formRow($form->get('go'));
+echo $this->form()->closeTag($form);
+

@@ -1,0 +1,7 @@
+sessionname multi-select
+screen -T screen-256color -t notes 0 vi notes.md
+screen -T screen-256color -t log 1
+screen -t browsersync ./run-browser-sync
+screen -M -t edit
+screen -M -t run
+source ~/.screenrc
